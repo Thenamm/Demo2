@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+table {
+    width: 1158px;
+    height: 112px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+table th,
+table td {
+    padding: 11px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+table th {
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    height: 80px;
+}
+
+.box-left {
+    display: flex;
+    width: 579px;
+}
+
+.checkbox {
+    margin-right: 8px;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+    margin: 31px 0;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    width: 80px;
+}
+
+.main .title {
+    width: 256px;
+    padding: 5px 20px 0px 10px;
+}
+
+.main .title h2 {}
+
+.box-right {
+    display: flex;
+    width: 579px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    width: 241px;
+    justify-content: space-between;
+}
+
+.value {
+    width: 80px;
+    height: 20px;
+    margin: 30px 0;
+}
+
+.value h2 {}
+
+.quantity {
+    display: flex;
+    width: 164px;
+    height: 32px;
+    justify-content: flex-end;
+    margin: 24px 0;
+}
+
+.quantity button {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.quantity button svg {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    color: #000000;
+}
+
+.quantity input {
+    width: 50px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.right {
+    display: flex;
+    width: 241px;
+}
+
+.delete {
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.delete button {
+    width: 37px;
+    height: 19px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 14px;
+    align-self: center;
+}
+
+.delete h2 {
+    display: block;
+    text-align: center;
+}
+
+.color {
+    color: #ee4d2d;
+}
